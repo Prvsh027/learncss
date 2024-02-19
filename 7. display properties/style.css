@@ -1,0 +1,41 @@
+* {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  color: red;
+  border: 1px solid black;
+  display: inline-block;
+  width: 300px;
+}
+a {
+  /* display: inline;  */
+  /* inline takes only required  */
+  width: 400px;
+  margin: 40px;
+  display: inlines;
+}
+
+img {
+  border: 1px solid red;
+  /* inline element */
+  width: 100%;
+  display: none;
+  /* element is not visible and left its place too */
+}
+
+li {
+  /* border: 1px solid black; */
+  display: inline;
+  padding: 20px;
+}
+
+li:hover {
+  color: violet;
+  cursor: pointer;
+}
