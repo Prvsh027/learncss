@@ -18,4 +18,5 @@ p {
 section {
   border: 5px dashed green;
   width: 50%;
+  /* relative from its parents element  */
 }
