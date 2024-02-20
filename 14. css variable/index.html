@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css variable</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Nature Park</h1>
+      <div class="box">
+        <h2>Hills</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
+          voluptatum in sit et facere fuga sint esse, id, possimus sequi vero
+          temporibus reprehenderit placeat repellat consequuntur cum iusto
+          soluta vitae.
+        </p>
+      </div>
+      <div class="box">
+        <h2>Snow Mountains</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quam
+          cum, facere fugit quae iusto inventore cupiditate ad deleniti ratione
+          similique doloribus necessitatibus id commodi eius optio perferendis
+          quibusdam veniam.
+        </p>
+      </div>
+      <button id="toggle">Toggle</button>
+    </div>
+
+    <script>
+      const toggle = document.getElementById("toggle");
+      toggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>
